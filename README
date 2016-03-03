@@ -1,0 +1,10 @@
+The Game is an game based on THREE.js and WEBGL.
+
+1.Rules:
+you can use "w,a,s,d" to control the rotate direction of the hero.
+"j,k" is used to correct the view, more  funny mode developping...
+2.use:
+just use the tomcat server to visit the /Bird/birdGame.html
+3.about me:
+tjullin@foxmail.com
+
