@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Test</title>
+</head>
+<body>
+<h1>bird game!</h1>
+<h3>按f建进入飞行模式，t键降落（高度大于1时无法降落）   按R键奔跑，只有在站立情况下才能奔跑，G键切换到站立 按w仰，按s俯,按a左转，按d右转，只有当飞行才能俯仰</h3>
+<h3>碰到大楼控制台会发布gameover,但游戏并不会结束(为了测试) , 两只多余的鸟是测试封装的</h3>
+<h3>可以通过修改bird.js里的scale修改鸟的大小 可以通过operateBird.js里的参数调整速度和方向</h3>
+<div id="WebGL-output">
+</div>
+<script type="text/javascript" src="../libs/three.js"></script>
+<script type="text/javascript" src="Bird.js"></script>
+<script type="text/javascript" src="building.js"></script>
+<script type="text/javascript" src="operateBird.js"></script>
+<script type="text/javascript" src="gameRule.js"></script>
+<script type="text/javascript" src="fruit.js"></script>
+<script src="test.js"></script>
+</body>
+</html>
